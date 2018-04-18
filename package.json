@@ -1,0 +1,22 @@
+{
+  "name": "archxpilot",
+  "version": "1.0.0-snaphot",
+  "description": "Software Architecture Tool for developer",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": "https://github.com/devbuwan/archxpilot",
+  "keywords": [
+    "Software Architecture Tool"
+  ],
+  "author": "Bhuwan Prasad Upadhyay",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.7.11",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2"
+  }
+}
